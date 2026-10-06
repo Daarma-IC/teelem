@@ -1,0 +1,11 @@
+# TelemJaya on Matek H743-WLITE pads Tx7/Rx7
+# ArduPilot maps hardware UART7 (TELEM1) to SERIAL1 on this target.
+# Wiring: FC Tx7 -> LilyGO RXD/GPIO3
+#         FC Rx7 <- LilyGO TXD/GPIO1
+#         FC GND -> LilyGO GND
+SERIAL1_PROTOCOL,2
+SERIAL1_BAUD,57
+SERIAL1_OPTIONS,0
+BRD_SER1_RTSCTS,0
+# SERIAL7 is hardware USART6/Rx6-Tx6 on this ArduPilot target, not pads Rx7/Tx7.
+SERIAL7_PROTOCOL,-1

@@ -1,0 +1,11 @@
+{
+  "name": "TelemJaya Air Compact OLED - LilyGO T3 V1.6.1 SX1276",
+  "version": "0.3.4-compact",
+  "new_install_prompt_erase": true,
+  "builds": [{"chipFamily":"ESP32","improv":false,"parts":[
+    {"path":"./firmware/esp32-pico-bootloader.bin","offset":4096},
+    {"path":"./firmware/esp32-pico-partitions.bin","offset":32768},
+    {"path":"./firmware/esp32-boot-app0.bin","offset":57344},
+    {"path":"./firmware/telemjaya-air-t3-v161-sx1276-v0.3.4-compact.bin","offset":65536}
+  ]}]
+}

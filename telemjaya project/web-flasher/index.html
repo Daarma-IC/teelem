@@ -1,0 +1,113 @@
+<!doctype html>
+<html lang="id">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#07111f" />
+    <meta
+      name="description"
+      content="Web flasher TelemJaya untuk LilyGO T3 V1.6.1 SX1276"
+    />
+    <title>TelemJaya Web Flasher</title>
+    <link rel="stylesheet" href="./styles.css?v=0.3.6-bindfix" />
+    <script
+      type="module"
+      src="https://unpkg.com/esp-web-tools@10/dist/web/install-button.js?module"
+    ></script>
+  </head>
+  <body>
+    <main class="shell">
+      <header class="hero">
+        <div class="eyebrow"><span></span> TELEMETRY LINK TOOLKIT</div>
+        <h1>Telem<span>Jaya</span></h1>
+        <p>
+          Flash firmware Air atau Ground ke LilyGO T3 V1.6.1 SX1276 langsung
+          dari Chrome atau Edge.
+        </p>
+        <div class="status-row">
+          <span class="status-dot"></span>
+          <span id="browser-status">Memeriksa dukungan browser...</span>
+        </div>
+      </header>
+
+      <section class="warning">
+        <strong>Pilih role dengan benar.</strong>
+        Air dipasang di pesawat dan terhubung ke TELEM. Ground dipasang di
+        laptop dan terhubung ke Mission Planner melalui USB.
+      </section>
+
+      <section class="cards" aria-label="Pilihan firmware">
+        <article class="card air-card">
+          <div class="card-top">
+            <span class="role-tag">AIR UNIT</span>
+            <span class="version">v0.3.6-bindfix</span>
+          </div>
+          <div class="icon">✈</div>
+          <h2>TelemJaya Air</h2>
+          <p class="subtitle">Flight controller ↔ radio link</p>
+          <dl>
+            <div><dt>Board</dt><dd>LilyGO T3 V1.6.1</dd></div>
+            <div><dt>Radio</dt><dd>SX1276 · 900 MHz</dd></div>
+            <div><dt>UART</dt><dd>GPIO16 RX · GPIO17 TX</dd></div>
+            <div><dt>Build</dt><dd>366,128 bytes</dd></div>
+          </dl>
+          <esp-web-install-button manifest="./manifest-air-v0.3.6-bindfix.json">
+            <button class="flash-button air" slot="activate">
+              Flash Air Firmware
+            </button>
+            <p class="unsupported" slot="unsupported">
+              Web Serial tidak tersedia. Gunakan Chrome atau Edge desktop.
+            </p>
+            <p class="unsupported" slot="not-allowed">
+              Flasher harus dibuka melalui HTTPS atau localhost.
+            </p>
+          </esp-web-install-button>
+        </article>
+
+        <article class="card ground-card">
+          <div class="card-top">
+            <span class="role-tag">GROUND UNIT</span>
+            <span class="version">v0.3.6-bindfix</span>
+          </div>
+          <div class="icon">⌁</div>
+          <h2>TelemJaya Ground</h2>
+          <p class="subtitle">Radio link ↔ Mission Planner</p>
+          <dl>
+            <div><dt>Board</dt><dd>LilyGO T3 V1.6.1</dd></div>
+            <div><dt>Radio</dt><dd>SX1276 · 900 MHz</dd></div>
+            <div><dt>Interface</dt><dd>USB CH9102 · UART0</dd></div>
+            <div><dt>Build</dt><dd>377,488 bytes</dd></div>
+          </dl>
+          <esp-web-install-button manifest="./manifest-ground-v0.3.6-bindfix.json">
+            <button class="flash-button ground" slot="activate">
+              Flash Ground Firmware
+            </button>
+            <p class="unsupported" slot="unsupported">
+              Web Serial tidak tersedia. Gunakan Chrome atau Edge desktop.
+            </p>
+            <p class="unsupported" slot="not-allowed">
+              Flasher harus dibuka melalui HTTPS atau localhost.
+            </p>
+          </esp-web-install-button>
+        </article>
+      </section>
+
+      <section class="steps">
+        <h2>Sebelum menekan Flash</h2>
+        <ol>
+          <li>Pasang antena 900/923 MHz sebelum board memancar.</li>
+          <li>Hubungkan satu LilyGO T3 V1.6.1 melalui kabel USB data.</li>
+          <li>Tutup Serial Monitor atau aplikasi lain yang memakai COM port.</li>
+          <li>Pilih firmware Air atau Ground, lalu pilih port CH9102.</li>
+          <li>Jika koneksi gagal, tahan BOOT saat proses connect dimulai.</li>
+        </ol>
+      </section>
+
+      <footer>
+        <span>TelemJaya Project</span>
+        <span>Compile-tested · Belum flight-tested</span>
+      </footer>
+    </main>
+    <script src="./app.js?v=0.3.6-bindfix"></script>
+  </body>
+</html>

@@ -1,0 +1,5 @@
+#line 1 "D:\\aaa\\asambly\\telemjaya project\\arduino\\TelemJaya_Ground\\tx_sources.cpp"
+#include "TelemJayaBuildConfig.h"
+#include "../../firmware/mLRS/CommonTx/tasks.cpp"
+#include "../../firmware/mLRS/CommonTx/config_id.cpp"
+#include "../../firmware/mLRS/CommonTx/in.cpp"

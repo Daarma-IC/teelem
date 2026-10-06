@@ -1,0 +1,56 @@
+#include <Arduino.h>
+#line 1 "D:\\aaa\\asambly\\telemjaya project\\arduino\\RF_Sanity_Air\\RF_Sanity_Air.ino"
+#include <SPI.h>
+#include <RadioLib.h>
+
+// LilyGO T3 V1.6.1: NSS=18, DIO0=26, RESET=23, DIO1 unused here.
+SX1276 radio = new Module(18, 26, 23, RADIOLIB_NC);
+
+static const int LED_PIN = 25;
+static uint32_t receivedCount = 0;
+
+#line 10 "D:\\aaa\\asambly\\telemjaya project\\arduino\\RF_Sanity_Air\\RF_Sanity_Air.ino"
+void setup();
+#line 30 "D:\\aaa\\asambly\\telemjaya project\\arduino\\RF_Sanity_Air\\RF_Sanity_Air.ino"
+void loop();
+#line 10 "D:\\aaa\\asambly\\telemjaya project\\arduino\\RF_Sanity_Air\\RF_Sanity_Air.ino"
+void setup() {
+  pinMode(LED_PIN, OUTPUT);
+  digitalWrite(LED_PIN, LOW);
+  Serial.begin(115200);
+  delay(1000);
+  Serial.println("TelemJaya RF SANITY - AIR");
+
+  SPI.begin(5, 19, 27, 18);
+  int state = radio.begin(923.0, 125.0, 9, 7, 0x34, 10, 8, 0);
+  if (state != RADIOLIB_ERR_NONE) {
+    Serial.printf("SX1276 INIT FAIL: %d\n", state);
+    while (true) {
+      digitalWrite(LED_PIN, !digitalRead(LED_PIN));
+      delay(100);
+    }
+  }
+
+  Serial.println("SX1276 OK - waiting PING at 923.0 MHz");
+}
+
+void loop() {
+  String incoming;
+  int state = radio.receive(incoming);
+  if (state != RADIOLIB_ERR_NONE) {
+    Serial.printf("RX error: %d\n", state);
+    return;
+  }
+
+  receivedCount++;
+  digitalWrite(LED_PIN, !digitalRead(LED_PIN));
+  Serial.printf("RX #%lu: %s | RSSI %.1f | SNR %.1f\n",
+                (unsigned long)receivedCount, incoming.c_str(),
+                radio.getRSSI(), radio.getSNR());
+
+  String reply = "PONG " + String(receivedCount);
+  state = radio.transmit(reply);
+  Serial.printf("TX %s: %d\n", reply.c_str(), state);
+}
+
+

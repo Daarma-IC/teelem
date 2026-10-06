@@ -1,0 +1,662 @@
+[
+  {
+    "added_include_path": "C:\\Users\\darma\\AppData\\Local\\Arduino15\\packages\\esp32\\hardware\\esp32\\3.3.10\\cores\\esp32"
+  },
+  {
+    "added_include_path": "C:\\Users\\darma\\AppData\\Local\\Arduino15\\packages\\esp32\\hardware\\esp32\\3.3.10\\variants\\pico32"
+  },
+  {
+    "compile": {
+      "source_path": "D:\\aaa\\asambly\\.telemjaya-arduino-ground\\sketch\\TelemJaya_Ground.ino.cpp.merged",
+      "depfile_path": "D:\\aaa\\asambly\\.telemjaya-arduino-ground\\sketch\\TelemJaya_Ground.ino.cpp.merged.libsdetect.d"
+    },
+    "compile_task": {
+      "args": [
+        "C:\\Users\\darma\\AppData\\Local\\Arduino15\\packages\\esp32\\tools\\esp-x32\\2601/bin/xtensa-esp32-elf-g++",
+        "-c",
+        "@C:\\Users\\darma\\AppData\\Local\\Arduino15\\packages\\esp32\\tools\\esp32-libs\\3.3.10/flags/cpp_flags",
+        "-w",
+        "-Os",
+        "-Werror=return-type",
+        "-w",
+        "-x",
+        "c++",
+        "-E",
+        "-CC",
+        "-DF_CPU=240000000L",
+        "-DARDUINO=10607",
+        "-DARDUINO_ESP32_PICO",
+        "-DARDUINO_ARCH_ESP32",
+        "-DARDUINO_BOARD=\"ESP32_PICO\"",
+        "-DARDUINO_VARIANT=\"pico32\"",
+        "-DARDUINO_PARTITION_default",
+        "-DARDUINO_HOST_OS=\"windows\"",
+        "-DARDUINO_FQBN=\"esp32:esp32:pico32\"",
+        "-DESP32=ESP32",
+        "-DCORE_DEBUG_LEVEL=0",
+        "-DARDUINO_USB_CDC_ON_BOOT=0",
+        "@C:\\Users\\darma\\AppData\\Local\\Arduino15\\packages\\esp32\\tools\\esp32-libs\\3.3.10/flags/defines",
+        "-ID:\\aaa\\asambly\\telemjaya project\\arduino\\TelemJaya_Ground",
+        "-iprefix",
+        "C:\\Users\\darma\\AppData\\Local\\Arduino15\\packages\\esp32\\tools\\esp32-libs\\3.3.10/include/",
+        "@C:\\Users\\darma\\AppData\\Local\\Arduino15\\packages\\esp32\\tools\\esp32-libs\\3.3.10/flags/includes",
+        "-IC:\\Users\\darma\\AppData\\Local\\Arduino15\\packages\\esp32\\tools\\esp32-libs\\3.3.10/dio_qspi/include",
+        "-IC:\\Users\\darma\\AppData\\Local\\Arduino15\\packages\\esp32\\hardware\\esp32\\3.3.10\\cores\\esp32",
+        "-IC:\\Users\\darma\\AppData\\Local\\Arduino15\\packages\\esp32\\hardware\\esp32\\3.3.10\\variants\\pico32",
+        "@D:\\aaa\\asambly\\.telemjaya-arduino-ground/build_opt.h",
+        "@D:\\aaa\\asambly\\.telemjaya-arduino-ground/file_opts",
+        "D:\\aaa\\asambly\\.telemjaya-arduino-ground\\sketch\\TelemJaya_Ground.ino.cpp.merged",
+        "-o",
+        "nul",
+        "-MMD",
+        "-MF",
+        "D:\\aaa\\asambly\\.telemjaya-arduino-ground\\sketch\\TelemJaya_Ground.ino.cpp.merged.libsdetect.d"
+      ]
+    }
+  },
+  {
+    "missing_include_h": ""
+  },
+  {
+    "compile": {
+      "source_path": "D:\\aaa\\asambly\\.telemjaya-arduino-ground\\sketch\\common_sources.cpp",
+      "depfile_path": "D:\\aaa\\asambly\\.telemjaya-arduino-ground\\sketch\\common_sources.cpp.libsdetect.d"
+    },
+    "compile_task": {
+      "args": [
+        "C:\\Users\\darma\\AppData\\Local\\Arduino15\\packages\\esp32\\tools\\esp-x32\\2601/bin/xtensa-esp32-elf-g++",
+        "-c",
+        "@C:\\Users\\darma\\AppData\\Local\\Arduino15\\packages\\esp32\\tools\\esp32-libs\\3.3.10/flags/cpp_flags",
+        "-w",
+        "-Os",
+        "-Werror=return-type",
+        "-w",
+        "-x",
+        "c++",
+        "-E",
+        "-CC",
+        "-DF_CPU=240000000L",
+        "-DARDUINO=10607",
+        "-DARDUINO_ESP32_PICO",
+        "-DARDUINO_ARCH_ESP32",
+        "-DARDUINO_BOARD=\"ESP32_PICO\"",
+        "-DARDUINO_VARIANT=\"pico32\"",
+        "-DARDUINO_PARTITION_default",
+        "-DARDUINO_HOST_OS=\"windows\"",
+        "-DARDUINO_FQBN=\"esp32:esp32:pico32\"",
+        "-DESP32=ESP32",
+        "-DCORE_DEBUG_LEVEL=0",
+        "-DARDUINO_USB_CDC_ON_BOOT=0",
+        "@C:\\Users\\darma\\AppData\\Local\\Arduino15\\packages\\esp32\\tools\\esp32-libs\\3.3.10/flags/defines",
+        "-ID:\\aaa\\asambly\\telemjaya project\\arduino\\TelemJaya_Ground",
+        "-iprefix",
+        "C:\\Users\\darma\\AppData\\Local\\Arduino15\\packages\\esp32\\tools\\esp32-libs\\3.3.10/include/",
+        "@C:\\Users\\darma\\AppData\\Local\\Arduino15\\packages\\esp32\\tools\\esp32-libs\\3.3.10/flags/includes",
+        "-IC:\\Users\\darma\\AppData\\Local\\Arduino15\\packages\\esp32\\tools\\esp32-libs\\3.3.10/dio_qspi/include",
+        "-IC:\\Users\\darma\\AppData\\Local\\Arduino15\\packages\\esp32\\hardware\\esp32\\3.3.10\\cores\\esp32",
+        "-IC:\\Users\\darma\\AppData\\Local\\Arduino15\\packages\\esp32\\hardware\\esp32\\3.3.10\\variants\\pico32",
+        "@D:\\aaa\\asambly\\.telemjaya-arduino-ground/build_opt.h",
+        "@D:\\aaa\\asambly\\.telemjaya-arduino-ground/file_opts",
+        "D:\\aaa\\asambly\\.telemjaya-arduino-ground\\sketch\\common_sources.cpp",
+        "-o",
+        "nul",
+        "-MMD",
+        "-MF",
+        "D:\\aaa\\asambly\\.telemjaya-arduino-ground\\sketch\\common_sources.cpp.libsdetect.d"
+      ]
+    }
+  },
+  {
+    "missing_include_h": ""
+  },
+  {
+    "compile": {
+      "source_path": "D:\\aaa\\asambly\\.telemjaya-arduino-ground\\sketch\\mlrs_c_sources.c",
+      "depfile_path": "D:\\aaa\\asambly\\.telemjaya-arduino-ground\\sketch\\mlrs_c_sources.c.libsdetect.d"
+    },
+    "compile_task": {
+      "args": [
+        "C:\\Users\\darma\\AppData\\Local\\Arduino15\\packages\\esp32\\tools\\esp-x32\\2601/bin/xtensa-esp32-elf-g++",
+        "-c",
+        "@C:\\Users\\darma\\AppData\\Local\\Arduino15\\packages\\esp32\\tools\\esp32-libs\\3.3.10/flags/cpp_flags",
+        "-w",
+        "-Os",
+        "-Werror=return-type",
+        "-w",
+        "-x",
+        "c++",
+        "-E",
+        "-CC",
+        "-DF_CPU=240000000L",
+        "-DARDUINO=10607",
+        "-DARDUINO_ESP32_PICO",
+        "-DARDUINO_ARCH_ESP32",
+        "-DARDUINO_BOARD=\"ESP32_PICO\"",
+        "-DARDUINO_VARIANT=\"pico32\"",
+        "-DARDUINO_PARTITION_default",
+        "-DARDUINO_HOST_OS=\"windows\"",
+        "-DARDUINO_FQBN=\"esp32:esp32:pico32\"",
+        "-DESP32=ESP32",
+        "-DCORE_DEBUG_LEVEL=0",
+        "-DARDUINO_USB_CDC_ON_BOOT=0",
+        "@C:\\Users\\darma\\AppData\\Local\\Arduino15\\packages\\esp32\\tools\\esp32-libs\\3.3.10/flags/defines",
+        "-ID:\\aaa\\asambly\\telemjaya project\\arduino\\TelemJaya_Ground",
+        "-iprefix",
+        "C:\\Users\\darma\\AppData\\Local\\Arduino15\\packages\\esp32\\tools\\esp32-libs\\3.3.10/include/",
+        "@C:\\Users\\darma\\AppData\\Local\\Arduino15\\packages\\esp32\\tools\\esp32-libs\\3.3.10/flags/includes",
+        "-IC:\\Users\\darma\\AppData\\Local\\Arduino15\\packages\\esp32\\tools\\esp32-libs\\3.3.10/dio_qspi/include",
+        "-IC:\\Users\\darma\\AppData\\Local\\Arduino15\\packages\\esp32\\hardware\\esp32\\3.3.10\\cores\\esp32",
+        "-IC:\\Users\\darma\\AppData\\Local\\Arduino15\\packages\\esp32\\hardware\\esp32\\3.3.10\\variants\\pico32",
+        "@D:\\aaa\\asambly\\.telemjaya-arduino-ground/build_opt.h",
+        "@D:\\aaa\\asambly\\.telemjaya-arduino-ground/file_opts",
+        "D:\\aaa\\asambly\\.telemjaya-arduino-ground\\sketch\\mlrs_c_sources.c",
+        "-o",
+        "nul",
+        "-MMD",
+        "-MF",
+        "D:\\aaa\\asambly\\.telemjaya-arduino-ground\\sketch\\mlrs_c_sources.c.libsdetect.d"
+      ]
+    }
+  },
+  {
+    "missing_include_h": ""
+  },
+  {
+    "compile": {
+      "source_path": "D:\\aaa\\asambly\\.telemjaya-arduino-ground\\sketch\\mlrs_ground.cpp",
+      "depfile_path": "D:\\aaa\\asambly\\.telemjaya-arduino-ground\\sketch\\mlrs_ground.cpp.libsdetect.d"
+    },
+    "compile_task": {
+      "args": [
+        "C:\\Users\\darma\\AppData\\Local\\Arduino15\\packages\\esp32\\tools\\esp-x32\\2601/bin/xtensa-esp32-elf-g++",
+        "-c",
+        "@C:\\Users\\darma\\AppData\\Local\\Arduino15\\packages\\esp32\\tools\\esp32-libs\\3.3.10/flags/cpp_flags",
+        "-w",
+        "-Os",
+        "-Werror=return-type",
+        "-w",
+        "-x",
+        "c++",
+        "-E",
+        "-CC",
+        "-DF_CPU=240000000L",
+        "-DARDUINO=10607",
+        "-DARDUINO_ESP32_PICO",
+        "-DARDUINO_ARCH_ESP32",
+        "-DARDUINO_BOARD=\"ESP32_PICO\"",
+        "-DARDUINO_VARIANT=\"pico32\"",
+        "-DARDUINO_PARTITION_default",
+        "-DARDUINO_HOST_OS=\"windows\"",
+        "-DARDUINO_FQBN=\"esp32:esp32:pico32\"",
+        "-DESP32=ESP32",
+        "-DCORE_DEBUG_LEVEL=0",
+        "-DARDUINO_USB_CDC_ON_BOOT=0",
+        "@C:\\Users\\darma\\AppData\\Local\\Arduino15\\packages\\esp32\\tools\\esp32-libs\\3.3.10/flags/defines",
+        "-ID:\\aaa\\asambly\\telemjaya project\\arduino\\TelemJaya_Ground",
+        "-iprefix",
+        "C:\\Users\\darma\\AppData\\Local\\Arduino15\\packages\\esp32\\tools\\esp32-libs\\3.3.10/include/",
+        "@C:\\Users\\darma\\AppData\\Local\\Arduino15\\packages\\esp32\\tools\\esp32-libs\\3.3.10/flags/includes",
+        "-IC:\\Users\\darma\\AppData\\Local\\Arduino15\\packages\\esp32\\tools\\esp32-libs\\3.3.10/dio_qspi/include",
+        "-IC:\\Users\\darma\\AppData\\Local\\Arduino15\\packages\\esp32\\hardware\\esp32\\3.3.10\\cores\\esp32",
+        "-IC:\\Users\\darma\\AppData\\Local\\Arduino15\\packages\\esp32\\hardware\\esp32\\3.3.10\\variants\\pico32",
+        "@D:\\aaa\\asambly\\.telemjaya-arduino-ground/build_opt.h",
+        "@D:\\aaa\\asambly\\.telemjaya-arduino-ground/file_opts",
+        "D:\\aaa\\asambly\\.telemjaya-arduino-ground\\sketch\\mlrs_ground.cpp",
+        "-o",
+        "nul",
+        "-MMD",
+        "-MF",
+        "D:\\aaa\\asambly\\.telemjaya-arduino-ground\\sketch\\mlrs_ground.cpp.libsdetect.d"
+      ]
+    }
+  },
+  {
+    "missing_include_h": "EEPROM.h"
+  },
+  {
+    "added_include_path": "C:\\Users\\darma\\AppData\\Local\\Arduino15\\packages\\esp32\\hardware\\esp32\\3.3.10\\libraries\\EEPROM\\src"
+  },
+  {
+    "compile": {
+      "source_path": "D:\\aaa\\asambly\\.telemjaya-arduino-ground\\sketch\\mlrs_ground.cpp",
+      "depfile_path": "D:\\aaa\\asambly\\.telemjaya-arduino-ground\\sketch\\mlrs_ground.cpp.libsdetect.d"
+    },
+    "compile_task": {
+      "args": [
+        "C:\\Users\\darma\\AppData\\Local\\Arduino15\\packages\\esp32\\tools\\esp-x32\\2601/bin/xtensa-esp32-elf-g++",
+        "-c",
+        "@C:\\Users\\darma\\AppData\\Local\\Arduino15\\packages\\esp32\\tools\\esp32-libs\\3.3.10/flags/cpp_flags",
+        "-w",
+        "-Os",
+        "-Werror=return-type",
+        "-w",
+        "-x",
+        "c++",
+        "-E",
+        "-CC",
+        "-DF_CPU=240000000L",
+        "-DARDUINO=10607",
+        "-DARDUINO_ESP32_PICO",
+        "-DARDUINO_ARCH_ESP32",
+        "-DARDUINO_BOARD=\"ESP32_PICO\"",
+        "-DARDUINO_VARIANT=\"pico32\"",
+        "-DARDUINO_PARTITION_default",
+        "-DARDUINO_HOST_OS=\"windows\"",
+        "-DARDUINO_FQBN=\"esp32:esp32:pico32\"",
+        "-DESP32=ESP32",
+        "-DCORE_DEBUG_LEVEL=0",
+        "-DARDUINO_USB_CDC_ON_BOOT=0",
+        "@C:\\Users\\darma\\AppData\\Local\\Arduino15\\packages\\esp32\\tools\\esp32-libs\\3.3.10/flags/defines",
+        "-ID:\\aaa\\asambly\\telemjaya project\\arduino\\TelemJaya_Ground",
+        "-iprefix",
+        "C:\\Users\\darma\\AppData\\Local\\Arduino15\\packages\\esp32\\tools\\esp32-libs\\3.3.10/include/",
+        "@C:\\Users\\darma\\AppData\\Local\\Arduino15\\packages\\esp32\\tools\\esp32-libs\\3.3.10/flags/includes",
+        "-IC:\\Users\\darma\\AppData\\Local\\Arduino15\\packages\\esp32\\tools\\esp32-libs\\3.3.10/dio_qspi/include",
+        "-IC:\\Users\\darma\\AppData\\Local\\Arduino15\\packages\\esp32\\hardware\\esp32\\3.3.10\\cores\\esp32",
+        "-IC:\\Users\\darma\\AppData\\Local\\Arduino15\\packages\\esp32\\hardware\\esp32\\3.3.10\\variants\\pico32",
+        "-IC:\\Users\\darma\\AppData\\Local\\Arduino15\\packages\\esp32\\hardware\\esp32\\3.3.10\\libraries\\EEPROM\\src",
+        "@D:\\aaa\\asambly\\.telemjaya-arduino-ground/build_opt.h",
+        "@D:\\aaa\\asambly\\.telemjaya-arduino-ground/file_opts",
+        "D:\\aaa\\asambly\\.telemjaya-arduino-ground\\sketch\\mlrs_ground.cpp",
+        "-o",
+        "nul",
+        "-MMD",
+        "-MF",
+        "D:\\aaa\\asambly\\.telemjaya-arduino-ground\\sketch\\mlrs_ground.cpp.libsdetect.d"
+      ]
+    }
+  },
+  {
+    "missing_include_h": "SPI.h"
+  },
+  {
+    "added_include_path": "C:\\Users\\darma\\AppData\\Local\\Arduino15\\packages\\esp32\\hardware\\esp32\\3.3.10\\libraries\\SPI\\src"
+  },
+  {
+    "compile": {
+      "source_path": "D:\\aaa\\asambly\\.telemjaya-arduino-ground\\sketch\\mlrs_ground.cpp",
+      "depfile_path": "D:\\aaa\\asambly\\.telemjaya-arduino-ground\\sketch\\mlrs_ground.cpp.libsdetect.d"
+    },
+    "compile_task": {
+      "args": [
+        "C:\\Users\\darma\\AppData\\Local\\Arduino15\\packages\\esp32\\tools\\esp-x32\\2601/bin/xtensa-esp32-elf-g++",
+        "-c",
+        "@C:\\Users\\darma\\AppData\\Local\\Arduino15\\packages\\esp32\\tools\\esp32-libs\\3.3.10/flags/cpp_flags",
+        "-w",
+        "-Os",
+        "-Werror=return-type",
+        "-w",
+        "-x",
+        "c++",
+        "-E",
+        "-CC",
+        "-DF_CPU=240000000L",
+        "-DARDUINO=10607",
+        "-DARDUINO_ESP32_PICO",
+        "-DARDUINO_ARCH_ESP32",
+        "-DARDUINO_BOARD=\"ESP32_PICO\"",
+        "-DARDUINO_VARIANT=\"pico32\"",
+        "-DARDUINO_PARTITION_default",
+        "-DARDUINO_HOST_OS=\"windows\"",
+        "-DARDUINO_FQBN=\"esp32:esp32:pico32\"",
+        "-DESP32=ESP32",
+        "-DCORE_DEBUG_LEVEL=0",
+        "-DARDUINO_USB_CDC_ON_BOOT=0",
+        "@C:\\Users\\darma\\AppData\\Local\\Arduino15\\packages\\esp32\\tools\\esp32-libs\\3.3.10/flags/defines",
+        "-ID:\\aaa\\asambly\\telemjaya project\\arduino\\TelemJaya_Ground",
+        "-iprefix",
+        "C:\\Users\\darma\\AppData\\Local\\Arduino15\\packages\\esp32\\tools\\esp32-libs\\3.3.10/include/",
+        "@C:\\Users\\darma\\AppData\\Local\\Arduino15\\packages\\esp32\\tools\\esp32-libs\\3.3.10/flags/includes",
+        "-IC:\\Users\\darma\\AppData\\Local\\Arduino15\\packages\\esp32\\tools\\esp32-libs\\3.3.10/dio_qspi/include",
+        "-IC:\\Users\\darma\\AppData\\Local\\Arduino15\\packages\\esp32\\hardware\\esp32\\3.3.10\\cores\\esp32",
+        "-IC:\\Users\\darma\\AppData\\Local\\Arduino15\\packages\\esp32\\hardware\\esp32\\3.3.10\\variants\\pico32",
+        "-IC:\\Users\\darma\\AppData\\Local\\Arduino15\\packages\\esp32\\hardware\\esp32\\3.3.10\\libraries\\EEPROM\\src",
+        "-IC:\\Users\\darma\\AppData\\Local\\Arduino15\\packages\\esp32\\hardware\\esp32\\3.3.10\\libraries\\SPI\\src",
+        "@D:\\aaa\\asambly\\.telemjaya-arduino-ground/build_opt.h",
+        "@D:\\aaa\\asambly\\.telemjaya-arduino-ground/file_opts",
+        "D:\\aaa\\asambly\\.telemjaya-arduino-ground\\sketch\\mlrs_ground.cpp",
+        "-o",
+        "nul",
+        "-MMD",
+        "-MF",
+        "D:\\aaa\\asambly\\.telemjaya-arduino-ground\\sketch\\mlrs_ground.cpp.libsdetect.d"
+      ]
+    }
+  },
+  {
+    "missing_include_h": "Wire.h"
+  },
+  {
+    "added_include_path": "C:\\Users\\darma\\AppData\\Local\\Arduino15\\packages\\esp32\\hardware\\esp32\\3.3.10\\libraries\\Wire\\src"
+  },
+  {
+    "compile": {
+      "source_path": "D:\\aaa\\asambly\\.telemjaya-arduino-ground\\sketch\\mlrs_ground.cpp",
+      "depfile_path": "D:\\aaa\\asambly\\.telemjaya-arduino-ground\\sketch\\mlrs_ground.cpp.libsdetect.d"
+    },
+    "compile_task": {
+      "args": [
+        "C:\\Users\\darma\\AppData\\Local\\Arduino15\\packages\\esp32\\tools\\esp-x32\\2601/bin/xtensa-esp32-elf-g++",
+        "-c",
+        "@C:\\Users\\darma\\AppData\\Local\\Arduino15\\packages\\esp32\\tools\\esp32-libs\\3.3.10/flags/cpp_flags",
+        "-w",
+        "-Os",
+        "-Werror=return-type",
+        "-w",
+        "-x",
+        "c++",
+        "-E",
+        "-CC",
+        "-DF_CPU=240000000L",
+        "-DARDUINO=10607",
+        "-DARDUINO_ESP32_PICO",
+        "-DARDUINO_ARCH_ESP32",
+        "-DARDUINO_BOARD=\"ESP32_PICO\"",
+        "-DARDUINO_VARIANT=\"pico32\"",
+        "-DARDUINO_PARTITION_default",
+        "-DARDUINO_HOST_OS=\"windows\"",
+        "-DARDUINO_FQBN=\"esp32:esp32:pico32\"",
+        "-DESP32=ESP32",
+        "-DCORE_DEBUG_LEVEL=0",
+        "-DARDUINO_USB_CDC_ON_BOOT=0",
+        "@C:\\Users\\darma\\AppData\\Local\\Arduino15\\packages\\esp32\\tools\\esp32-libs\\3.3.10/flags/defines",
+        "-ID:\\aaa\\asambly\\telemjaya project\\arduino\\TelemJaya_Ground",
+        "-iprefix",
+        "C:\\Users\\darma\\AppData\\Local\\Arduino15\\packages\\esp32\\tools\\esp32-libs\\3.3.10/include/",
+        "@C:\\Users\\darma\\AppData\\Local\\Arduino15\\packages\\esp32\\tools\\esp32-libs\\3.3.10/flags/includes",
+        "-IC:\\Users\\darma\\AppData\\Local\\Arduino15\\packages\\esp32\\tools\\esp32-libs\\3.3.10/dio_qspi/include",
+        "-IC:\\Users\\darma\\AppData\\Local\\Arduino15\\packages\\esp32\\hardware\\esp32\\3.3.10\\cores\\esp32",
+        "-IC:\\Users\\darma\\AppData\\Local\\Arduino15\\packages\\esp32\\hardware\\esp32\\3.3.10\\variants\\pico32",
+        "-IC:\\Users\\darma\\AppData\\Local\\Arduino15\\packages\\esp32\\hardware\\esp32\\3.3.10\\libraries\\EEPROM\\src",
+        "-IC:\\Users\\darma\\AppData\\Local\\Arduino15\\packages\\esp32\\hardware\\esp32\\3.3.10\\libraries\\SPI\\src",
+        "-IC:\\Users\\darma\\AppData\\Local\\Arduino15\\packages\\esp32\\hardware\\esp32\\3.3.10\\libraries\\Wire\\src",
+        "@D:\\aaa\\asambly\\.telemjaya-arduino-ground/build_opt.h",
+        "@D:\\aaa\\asambly\\.telemjaya-arduino-ground/file_opts",
+        "D:\\aaa\\asambly\\.telemjaya-arduino-ground\\sketch\\mlrs_ground.cpp",
+        "-o",
+        "nul",
+        "-MMD",
+        "-MF",
+        "D:\\aaa\\asambly\\.telemjaya-arduino-ground\\sketch\\mlrs_ground.cpp.libsdetect.d"
+      ]
+    }
+  },
+  {
+    "missing_include_h": ""
+  },
+  {
+    "compile": {
+      "source_path": "D:\\aaa\\asambly\\.telemjaya-arduino-ground\\sketch\\sx127x_driver.cpp",
+      "depfile_path": "D:\\aaa\\asambly\\.telemjaya-arduino-ground\\sketch\\sx127x_driver.cpp.libsdetect.d"
+    },
+    "compile_task": {
+      "args": [
+        "C:\\Users\\darma\\AppData\\Local\\Arduino15\\packages\\esp32\\tools\\esp-x32\\2601/bin/xtensa-esp32-elf-g++",
+        "-c",
+        "@C:\\Users\\darma\\AppData\\Local\\Arduino15\\packages\\esp32\\tools\\esp32-libs\\3.3.10/flags/cpp_flags",
+        "-w",
+        "-Os",
+        "-Werror=return-type",
+        "-w",
+        "-x",
+        "c++",
+        "-E",
+        "-CC",
+        "-DF_CPU=240000000L",
+        "-DARDUINO=10607",
+        "-DARDUINO_ESP32_PICO",
+        "-DARDUINO_ARCH_ESP32",
+        "-DARDUINO_BOARD=\"ESP32_PICO\"",
+        "-DARDUINO_VARIANT=\"pico32\"",
+        "-DARDUINO_PARTITION_default",
+        "-DARDUINO_HOST_OS=\"windows\"",
+        "-DARDUINO_FQBN=\"esp32:esp32:pico32\"",
+        "-DESP32=ESP32",
+        "-DCORE_DEBUG_LEVEL=0",
+        "-DARDUINO_USB_CDC_ON_BOOT=0",
+        "@C:\\Users\\darma\\AppData\\Local\\Arduino15\\packages\\esp32\\tools\\esp32-libs\\3.3.10/flags/defines",
+        "-ID:\\aaa\\asambly\\telemjaya project\\arduino\\TelemJaya_Ground",
+        "-iprefix",
+        "C:\\Users\\darma\\AppData\\Local\\Arduino15\\packages\\esp32\\tools\\esp32-libs\\3.3.10/include/",
+        "@C:\\Users\\darma\\AppData\\Local\\Arduino15\\packages\\esp32\\tools\\esp32-libs\\3.3.10/flags/includes",
+        "-IC:\\Users\\darma\\AppData\\Local\\Arduino15\\packages\\esp32\\tools\\esp32-libs\\3.3.10/dio_qspi/include",
+        "-IC:\\Users\\darma\\AppData\\Local\\Arduino15\\packages\\esp32\\hardware\\esp32\\3.3.10\\cores\\esp32",
+        "-IC:\\Users\\darma\\AppData\\Local\\Arduino15\\packages\\esp32\\hardware\\esp32\\3.3.10\\variants\\pico32",
+        "-IC:\\Users\\darma\\AppData\\Local\\Arduino15\\packages\\esp32\\hardware\\esp32\\3.3.10\\libraries\\EEPROM\\src",
+        "-IC:\\Users\\darma\\AppData\\Local\\Arduino15\\packages\\esp32\\hardware\\esp32\\3.3.10\\libraries\\SPI\\src",
+        "-IC:\\Users\\darma\\AppData\\Local\\Arduino15\\packages\\esp32\\hardware\\esp32\\3.3.10\\libraries\\Wire\\src",
+        "@D:\\aaa\\asambly\\.telemjaya-arduino-ground/build_opt.h",
+        "@D:\\aaa\\asambly\\.telemjaya-arduino-ground/file_opts",
+        "D:\\aaa\\asambly\\.telemjaya-arduino-ground\\sketch\\sx127x_driver.cpp",
+        "-o",
+        "nul",
+        "-MMD",
+        "-MF",
+        "D:\\aaa\\asambly\\.telemjaya-arduino-ground\\sketch\\sx127x_driver.cpp.libsdetect.d"
+      ]
+    }
+  },
+  {
+    "missing_include_h": ""
+  },
+  {
+    "compile": {
+      "source_path": "D:\\aaa\\asambly\\.telemjaya-arduino-ground\\sketch\\tx_sources.cpp",
+      "depfile_path": "D:\\aaa\\asambly\\.telemjaya-arduino-ground\\sketch\\tx_sources.cpp.libsdetect.d"
+    },
+    "compile_task": {
+      "args": [
+        "C:\\Users\\darma\\AppData\\Local\\Arduino15\\packages\\esp32\\tools\\esp-x32\\2601/bin/xtensa-esp32-elf-g++",
+        "-c",
+        "@C:\\Users\\darma\\AppData\\Local\\Arduino15\\packages\\esp32\\tools\\esp32-libs\\3.3.10/flags/cpp_flags",
+        "-w",
+        "-Os",
+        "-Werror=return-type",
+        "-w",
+        "-x",
+        "c++",
+        "-E",
+        "-CC",
+        "-DF_CPU=240000000L",
+        "-DARDUINO=10607",
+        "-DARDUINO_ESP32_PICO",
+        "-DARDUINO_ARCH_ESP32",
+        "-DARDUINO_BOARD=\"ESP32_PICO\"",
+        "-DARDUINO_VARIANT=\"pico32\"",
+        "-DARDUINO_PARTITION_default",
+        "-DARDUINO_HOST_OS=\"windows\"",
+        "-DARDUINO_FQBN=\"esp32:esp32:pico32\"",
+        "-DESP32=ESP32",
+        "-DCORE_DEBUG_LEVEL=0",
+        "-DARDUINO_USB_CDC_ON_BOOT=0",
+        "@C:\\Users\\darma\\AppData\\Local\\Arduino15\\packages\\esp32\\tools\\esp32-libs\\3.3.10/flags/defines",
+        "-ID:\\aaa\\asambly\\telemjaya project\\arduino\\TelemJaya_Ground",
+        "-iprefix",
+        "C:\\Users\\darma\\AppData\\Local\\Arduino15\\packages\\esp32\\tools\\esp32-libs\\3.3.10/include/",
+        "@C:\\Users\\darma\\AppData\\Local\\Arduino15\\packages\\esp32\\tools\\esp32-libs\\3.3.10/flags/includes",
+        "-IC:\\Users\\darma\\AppData\\Local\\Arduino15\\packages\\esp32\\tools\\esp32-libs\\3.3.10/dio_qspi/include",
+        "-IC:\\Users\\darma\\AppData\\Local\\Arduino15\\packages\\esp32\\hardware\\esp32\\3.3.10\\cores\\esp32",
+        "-IC:\\Users\\darma\\AppData\\Local\\Arduino15\\packages\\esp32\\hardware\\esp32\\3.3.10\\variants\\pico32",
+        "-IC:\\Users\\darma\\AppData\\Local\\Arduino15\\packages\\esp32\\hardware\\esp32\\3.3.10\\libraries\\EEPROM\\src",
+        "-IC:\\Users\\darma\\AppData\\Local\\Arduino15\\packages\\esp32\\hardware\\esp32\\3.3.10\\libraries\\SPI\\src",
+        "-IC:\\Users\\darma\\AppData\\Local\\Arduino15\\packages\\esp32\\hardware\\esp32\\3.3.10\\libraries\\Wire\\src",
+        "@D:\\aaa\\asambly\\.telemjaya-arduino-ground/build_opt.h",
+        "@D:\\aaa\\asambly\\.telemjaya-arduino-ground/file_opts",
+        "D:\\aaa\\asambly\\.telemjaya-arduino-ground\\sketch\\tx_sources.cpp",
+        "-o",
+        "nul",
+        "-MMD",
+        "-MF",
+        "D:\\aaa\\asambly\\.telemjaya-arduino-ground\\sketch\\tx_sources.cpp.libsdetect.d"
+      ]
+    }
+  },
+  {
+    "missing_include_h": ""
+  },
+  {
+    "compile": {
+      "source_path": "C:\\Users\\darma\\AppData\\Local\\Arduino15\\packages\\esp32\\hardware\\esp32\\3.3.10\\libraries\\EEPROM\\src\\EEPROM.cpp",
+      "depfile_path": "D:\\aaa\\asambly\\.telemjaya-arduino-ground\\libraries\\EEPROM\\EEPROM.cpp.libsdetect.d"
+    },
+    "compile_task": {
+      "args": [
+        "C:\\Users\\darma\\AppData\\Local\\Arduino15\\packages\\esp32\\tools\\esp-x32\\2601/bin/xtensa-esp32-elf-g++",
+        "-c",
+        "@C:\\Users\\darma\\AppData\\Local\\Arduino15\\packages\\esp32\\tools\\esp32-libs\\3.3.10/flags/cpp_flags",
+        "-w",
+        "-Os",
+        "-Werror=return-type",
+        "-w",
+        "-x",
+        "c++",
+        "-E",
+        "-CC",
+        "-DF_CPU=240000000L",
+        "-DARDUINO=10607",
+        "-DARDUINO_ESP32_PICO",
+        "-DARDUINO_ARCH_ESP32",
+        "-DARDUINO_BOARD=\"ESP32_PICO\"",
+        "-DARDUINO_VARIANT=\"pico32\"",
+        "-DARDUINO_PARTITION_default",
+        "-DARDUINO_HOST_OS=\"windows\"",
+        "-DARDUINO_FQBN=\"esp32:esp32:pico32\"",
+        "-DESP32=ESP32",
+        "-DCORE_DEBUG_LEVEL=0",
+        "-DARDUINO_USB_CDC_ON_BOOT=0",
+        "@C:\\Users\\darma\\AppData\\Local\\Arduino15\\packages\\esp32\\tools\\esp32-libs\\3.3.10/flags/defines",
+        "-ID:\\aaa\\asambly\\telemjaya project\\arduino\\TelemJaya_Ground",
+        "-iprefix",
+        "C:\\Users\\darma\\AppData\\Local\\Arduino15\\packages\\esp32\\tools\\esp32-libs\\3.3.10/include/",
+        "@C:\\Users\\darma\\AppData\\Local\\Arduino15\\packages\\esp32\\tools\\esp32-libs\\3.3.10/flags/includes",
+        "-IC:\\Users\\darma\\AppData\\Local\\Arduino15\\packages\\esp32\\tools\\esp32-libs\\3.3.10/dio_qspi/include",
+        "-IC:\\Users\\darma\\AppData\\Local\\Arduino15\\packages\\esp32\\hardware\\esp32\\3.3.10\\cores\\esp32",
+        "-IC:\\Users\\darma\\AppData\\Local\\Arduino15\\packages\\esp32\\hardware\\esp32\\3.3.10\\variants\\pico32",
+        "-IC:\\Users\\darma\\AppData\\Local\\Arduino15\\packages\\esp32\\hardware\\esp32\\3.3.10\\libraries\\EEPROM\\src",
+        "-IC:\\Users\\darma\\AppData\\Local\\Arduino15\\packages\\esp32\\hardware\\esp32\\3.3.10\\libraries\\SPI\\src",
+        "-IC:\\Users\\darma\\AppData\\Local\\Arduino15\\packages\\esp32\\hardware\\esp32\\3.3.10\\libraries\\Wire\\src",
+        "@D:\\aaa\\asambly\\.telemjaya-arduino-ground/build_opt.h",
+        "@D:\\aaa\\asambly\\.telemjaya-arduino-ground/file_opts",
+        "C:\\Users\\darma\\AppData\\Local\\Arduino15\\packages\\esp32\\hardware\\esp32\\3.3.10\\libraries\\EEPROM\\src\\EEPROM.cpp",
+        "-o",
+        "nul",
+        "-MMD",
+        "-MF",
+        "D:\\aaa\\asambly\\.telemjaya-arduino-ground\\libraries\\EEPROM\\EEPROM.cpp.libsdetect.d"
+      ]
+    }
+  },
+  {
+    "missing_include_h": ""
+  },
+  {
+    "compile": {
+      "source_path": "C:\\Users\\darma\\AppData\\Local\\Arduino15\\packages\\esp32\\hardware\\esp32\\3.3.10\\libraries\\SPI\\src\\SPI.cpp",
+      "depfile_path": "D:\\aaa\\asambly\\.telemjaya-arduino-ground\\libraries\\SPI\\SPI.cpp.libsdetect.d"
+    },
+    "compile_task": {
+      "args": [
+        "C:\\Users\\darma\\AppData\\Local\\Arduino15\\packages\\esp32\\tools\\esp-x32\\2601/bin/xtensa-esp32-elf-g++",
+        "-c",
+        "@C:\\Users\\darma\\AppData\\Local\\Arduino15\\packages\\esp32\\tools\\esp32-libs\\3.3.10/flags/cpp_flags",
+        "-w",
+        "-Os",
+        "-Werror=return-type",
+        "-w",
+        "-x",
+        "c++",
+        "-E",
+        "-CC",
+        "-DF_CPU=240000000L",
+        "-DARDUINO=10607",
+        "-DARDUINO_ESP32_PICO",
+        "-DARDUINO_ARCH_ESP32",
+        "-DARDUINO_BOARD=\"ESP32_PICO\"",
+        "-DARDUINO_VARIANT=\"pico32\"",
+        "-DARDUINO_PARTITION_default",
+        "-DARDUINO_HOST_OS=\"windows\"",
+        "-DARDUINO_FQBN=\"esp32:esp32:pico32\"",
+        "-DESP32=ESP32",
+        "-DCORE_DEBUG_LEVEL=0",
+        "-DARDUINO_USB_CDC_ON_BOOT=0",
+        "@C:\\Users\\darma\\AppData\\Local\\Arduino15\\packages\\esp32\\tools\\esp32-libs\\3.3.10/flags/defines",
+        "-ID:\\aaa\\asambly\\telemjaya project\\arduino\\TelemJaya_Ground",
+        "-iprefix",
+        "C:\\Users\\darma\\AppData\\Local\\Arduino15\\packages\\esp32\\tools\\esp32-libs\\3.3.10/include/",
+        "@C:\\Users\\darma\\AppData\\Local\\Arduino15\\packages\\esp32\\tools\\esp32-libs\\3.3.10/flags/includes",
+        "-IC:\\Users\\darma\\AppData\\Local\\Arduino15\\packages\\esp32\\tools\\esp32-libs\\3.3.10/dio_qspi/include",
+        "-IC:\\Users\\darma\\AppData\\Local\\Arduino15\\packages\\esp32\\hardware\\esp32\\3.3.10\\cores\\esp32",
+        "-IC:\\Users\\darma\\AppData\\Local\\Arduino15\\packages\\esp32\\hardware\\esp32\\3.3.10\\variants\\pico32",
+        "-IC:\\Users\\darma\\AppData\\Local\\Arduino15\\packages\\esp32\\hardware\\esp32\\3.3.10\\libraries\\EEPROM\\src",
+        "-IC:\\Users\\darma\\AppData\\Local\\Arduino15\\packages\\esp32\\hardware\\esp32\\3.3.10\\libraries\\SPI\\src",
+        "-IC:\\Users\\darma\\AppData\\Local\\Arduino15\\packages\\esp32\\hardware\\esp32\\3.3.10\\libraries\\Wire\\src",
+        "@D:\\aaa\\asambly\\.telemjaya-arduino-ground/build_opt.h",
+        "@D:\\aaa\\asambly\\.telemjaya-arduino-ground/file_opts",
+        "C:\\Users\\darma\\AppData\\Local\\Arduino15\\packages\\esp32\\hardware\\esp32\\3.3.10\\libraries\\SPI\\src\\SPI.cpp",
+        "-o",
+        "nul",
+        "-MMD",
+        "-MF",
+        "D:\\aaa\\asambly\\.telemjaya-arduino-ground\\libraries\\SPI\\SPI.cpp.libsdetect.d"
+      ]
+    }
+  },
+  {
+    "missing_include_h": ""
+  },
+  {
+    "compile": {
+      "source_path": "C:\\Users\\darma\\AppData\\Local\\Arduino15\\packages\\esp32\\hardware\\esp32\\3.3.10\\libraries\\Wire\\src\\Wire.cpp",
+      "depfile_path": "D:\\aaa\\asambly\\.telemjaya-arduino-ground\\libraries\\Wire\\Wire.cpp.libsdetect.d"
+    },
+    "compile_task": {
+      "args": [
+        "C:\\Users\\darma\\AppData\\Local\\Arduino15\\packages\\esp32\\tools\\esp-x32\\2601/bin/xtensa-esp32-elf-g++",
+        "-c",
+        "@C:\\Users\\darma\\AppData\\Local\\Arduino15\\packages\\esp32\\tools\\esp32-libs\\3.3.10/flags/cpp_flags",
+        "-w",
+        "-Os",
+        "-Werror=return-type",
+        "-w",
+        "-x",
+        "c++",
+        "-E",
+        "-CC",
+        "-DF_CPU=240000000L",
+        "-DARDUINO=10607",
+        "-DARDUINO_ESP32_PICO",
+        "-DARDUINO_ARCH_ESP32",
+        "-DARDUINO_BOARD=\"ESP32_PICO\"",
+        "-DARDUINO_VARIANT=\"pico32\"",
+        "-DARDUINO_PARTITION_default",
+        "-DARDUINO_HOST_OS=\"windows\"",
+        "-DARDUINO_FQBN=\"esp32:esp32:pico32\"",
+        "-DESP32=ESP32",
+        "-DCORE_DEBUG_LEVEL=0",
+        "-DARDUINO_USB_CDC_ON_BOOT=0",
+        "@C:\\Users\\darma\\AppData\\Local\\Arduino15\\packages\\esp32\\tools\\esp32-libs\\3.3.10/flags/defines",
+        "-ID:\\aaa\\asambly\\telemjaya project\\arduino\\TelemJaya_Ground",
+        "-iprefix",
+        "C:\\Users\\darma\\AppData\\Local\\Arduino15\\packages\\esp32\\tools\\esp32-libs\\3.3.10/include/",
+        "@C:\\Users\\darma\\AppData\\Local\\Arduino15\\packages\\esp32\\tools\\esp32-libs\\3.3.10/flags/includes",
+        "-IC:\\Users\\darma\\AppData\\Local\\Arduino15\\packages\\esp32\\tools\\esp32-libs\\3.3.10/dio_qspi/include",
+        "-IC:\\Users\\darma\\AppData\\Local\\Arduino15\\packages\\esp32\\hardware\\esp32\\3.3.10\\cores\\esp32",
+        "-IC:\\Users\\darma\\AppData\\Local\\Arduino15\\packages\\esp32\\hardware\\esp32\\3.3.10\\variants\\pico32",
+        "-IC:\\Users\\darma\\AppData\\Local\\Arduino15\\packages\\esp32\\hardware\\esp32\\3.3.10\\libraries\\EEPROM\\src",
+        "-IC:\\Users\\darma\\AppData\\Local\\Arduino15\\packages\\esp32\\hardware\\esp32\\3.3.10\\libraries\\SPI\\src",
+        "-IC:\\Users\\darma\\AppData\\Local\\Arduino15\\packages\\esp32\\hardware\\esp32\\3.3.10\\libraries\\Wire\\src",
+        "@D:\\aaa\\asambly\\.telemjaya-arduino-ground/build_opt.h",
+        "@D:\\aaa\\asambly\\.telemjaya-arduino-ground/file_opts",
+        "C:\\Users\\darma\\AppData\\Local\\Arduino15\\packages\\esp32\\hardware\\esp32\\3.3.10\\libraries\\Wire\\src\\Wire.cpp",
+        "-o",
+        "nul",
+        "-MMD",
+        "-MF",
+        "D:\\aaa\\asambly\\.telemjaya-arduino-ground\\libraries\\Wire\\Wire.cpp.libsdetect.d"
+      ]
+    }
+  },
+  {
+    "missing_include_h": ""
+  }
+]
