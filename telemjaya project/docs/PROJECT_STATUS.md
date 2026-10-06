@@ -262,3 +262,33 @@ Status final yang belum dilakukan adalah menghubungkan UART7 Matek H743-WLITE
 ke UART Air dan memverifikasi MAVLink dari flight controller nyata. Sampai tes
 itu dilakukan, hasil FC dummy tidak boleh dicatat sebagai bukti bahwa wiring,
 parameter serial, dan catu daya Matek sudah benar.
+
+## Firmware production yang tervalidasi dengan simulator
+
+Ini adalah pasangan firmware yang dipakai ketika Mission Planner berhasil
+connected melalui dua LilyGO pada 6 Oktober 2026:
+
+| Role | Source | Binary hasil build | SHA-256 |
+|---|---|---|---|
+| Air production | `arduino/TelemJaya_Bridge_Air/TelemJaya_Bridge_Air.ino` | `.build/TelemJaya_Bridge_Air_Production/TelemJaya_Bridge_Air.ino.bin` | `B89F72D4F19D85BE73DC1355A1A02A7B570DAEE950E0087AA090A4DE9AF0E72D` |
+| Ground production | `arduino/TelemJaya_Bridge_Ground/TelemJaya_Bridge_Ground.ino` | `.build/TelemJaya_Bridge_Ground_Production/TelemJaya_Bridge_Ground.ino.bin` | `B40D0BF9F548FE0C951DBD78BD06490653B46027267BDDC5AC1A9951F9F3C8D7` |
+
+Keduanya di-compile dan di-upload memakai:
+
+```powershell
+.\upload_bridge_production.ps1 -AirPort COM13 -GroundPort COM20
+```
+
+Setelah firmware production terpasang, pengujian yang berhasil memakai:
+
+```powershell
+.\test_mavlink_dummy.ps1 -AirPort COM13 -Baud 57600
+```
+
+Ground dipasang ke laptop kedua dan Mission Planner membuka COM Ground pada
+57600 baud. Mission Planner berhasil menerima telemetri. Ini merupakan status
+`VALIDATED WITH LAPTOP FC SIMULATOR`, bukan validasi Matek nyata.
+
+Jangan mengganti firmware tersebut dengan `TelemJaya_Bridge_Air_Test` untuk
+penggunaan FC. Build bertanda `SELFTEST` membuat heartbeat internal dan tidak
+membaca input UART FC seperti build production.

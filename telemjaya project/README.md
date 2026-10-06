@@ -54,3 +54,8 @@ memilih ROM bootloader ESP32.
 
 Board : 
 https://lilygo.cc/en-us/products/lora3?srsltid=AU7gw4VAilKgcVyQueNiLQqWYmaD8xBVq7kshdBRT2OmsN7PKlrY5hYJ
+
+
+
+cd "D:\aaa\asambly\telemjaya project\arduino"
+.\test_mavlink_dummy.ps1 -AirPort COM13 -Baud 57600
